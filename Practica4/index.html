@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- IMPORTAMOS LAS FUENTES QUE ESTAREMOS USANDO EN ESTA PAGINA WEB-->
+    
+</head>
+<body>
+    <section>
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Contactános llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+                    
+                    <!--<div class="campo">
+                        <label> Contraseña</label>
+                        <input class="input-text" type="password" placeholder="Tu contraseña">
+                    </div>-->
+                    
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Email">
+                    </div>
+                    
+                    <div class="msj">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos -->
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+<form method="post">
+    <label>Mensaje</label>
+    <input type="text" required>
+    <label>Contraseña</label>
+    <input type="password" required>
+    <label>Teléfono</label>
+    <input type="number" required>
+    <label>Correo</label>
+    <input type="email" required>
+    <label>Color Fav</label>
+    <input type="color" required>
+    <label>Edad</label>
+    <input type="range" min="1" max="5" required>
+    <label>Fecha</label>
+    <input type="date" required>
+    <label>Hora</label>
+    <input type="time"required>
+    <textarea></textarea>
+    <input type="button" value="Boton" required>
+    <input type="submit" required>
+</form>
+
+<footer class="footer">
+    <p>Todos los derechos reservados. Jonathan Vega, Emmanuel Diaz, Jose Juarez</p>
+</footer>
+
+</body>
+</html>
